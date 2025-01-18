@@ -1,0 +1,32 @@
+create table funders(
+funderId int primary key generated always as identity,
+funderName varchar(50),
+funderEmail varchar(50),
+funderPhone varchar(20),
+funderUserName  varchar(30),
+funderPass varchar(20));
+
+CREATE TABLE founder (
+    founderId INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    founderName VARCHAR(50),
+    founderPass VARCHAR(50),
+    projectId INT,
+    FOREIGN KEY (projectId) REFERENCES project(projectId)
+);
+
+create table project(
+projectId int primary key generated always as identity,
+projectName varchar(50),
+projectDescription varchar(100),
+deadline varchar(20)
+);
+
+CREATE TABLE donate (
+    projectFundingID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    fundingAmount DECIMAL(10, 2), 
+    fundingDate varchar(20),
+    funderID INT,
+    projectID INT,
+    FOREIGN KEY (funderID) REFERENCES funders(funderId),
+    FOREIGN KEY (projectID) REFERENCES project(projectId)
+);
