@@ -1,0 +1,225 @@
+*{
+	padding: 0;
+	margin: 0:;
+	box-sizing: border-box;
+	font-family: 'Jost', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
+}
+
+:root{
+	--bg-color:#FFFFFF;
+	--text-color: #000;
+	--secound-color: #98AFC7;
+	--main-color: #52595D;
+	--big-font: 5rem;
+	--h2-font: 3rem;
+	--p-font:1.1rem;
+}
+
+header{
+	
+	width: 100%;
+	height: 15%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--bg-color);
+	padding: 30px 5%;
+	transition:  .3s;
+}
+
+.logo img{
+	max-width: 100%;
+	width:150px;
+	height: auto;
+}
+
+.navi{
+	background-color: var(--text-color);
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+
+.rightnav{
+	height: 30px;
+	display: flex;
+}
+
+.rightnav li{
+	position: relative;
+}
+
+.rightnav a{
+	
+	font-size:var(--p-font);
+	color: var(--bg-color);
+	font-weight: 500;
+	padding: 10px 27px;
+}
+
+.leftnav{
+	font-size:var(--p-font);
+	color: var(--bg-color);
+	font-weight: 500;
+	height: 30px;
+	display: flex;
+}
+
+.leftnav i{
+	width: 50px;
+	height: 50px;
+	font-size:2rem;
+	color: var(--bg-color);
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 3px;
+    color: white;
+    font-size: 15px;
+}
+
+.start {
+	text-align: center;
+}
+
+.start h1{
+	font-family: Times New Roman;
+}
+
+.start p{
+	width:100%;
+}
+
+.registration-form
+{
+	background-position: center;
+	position: absolute;
+	left: 35%;
+	width: 400px;
+}
+
+.registration-form input
+{
+	
+	font-size: 16px;
+	padding: 15px 10px;
+	width:130%;
+	border:0;
+	border-radius: 5px;
+	outline: none;
+	
+}
+
+.registration-form button
+{
+	margin: right;
+	padding: 10px 15px;
+	width: 50%;
+	font-weight: bold;
+	border: 0;
+	border-radius: 5px;
+	background-color:#FFA09A ;
+	margin-left: 80%;
+}
+
+
+
+.but{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 30%;
+		
+}
+
+.start a{
+	width: 120px;
+	height: 50px;
+	font-weight: bold;
+	border: 50px;
+	border-radius: 5px;
+	background-color:#dfff80;
+	padding: 15px 30px;
+	color: black;
+}
+
+.logi{
+	background-position: center;
+	position: absolute;
+	left: 35%;
+	width: 400px;
+}
+
+.logi h1{
+	
+	font-size:150%;
+	font-family: Times New Roman;
+	margin-top:80px;
+	text-align: center;
+}
+
+
+.logi input{
+	font-size: 16px;
+	padding: 15px 10px;
+	width:100%;
+	border:0;
+	border-radius: 5px;
+	outline: none;
+}
+
+.button{
+	padding: 10px 15px;
+	width: 50%;
+	font-weight: bold;
+	border: 0;
+	border-radius: 5px;
+	background-color:#dfff80;
+}
+
+.iklan{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	
+}
+
+.iklan .swiper{
+	width:60%;
+	height:auto;
+	background-color: var(--bg-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 50px;
+}
+
+.foot{
+	background-color: var(--text-color);
+	color: var(--bg-color);
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+	height: 50px;
+	display: flex;
+}
+
+
+.foot li{
+	position: relative;
+}
+
+.foot a{
+	
+	font-size:var(--p-font);
+	color: var(--bg-color);
+	font-weight: 500;
+	padding: 10px 27px;
+}
