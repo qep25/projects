@@ -1,0 +1,9 @@
+Timestamp,ID,Emotion,Accuracy,Image Filename
+2025_01_13_1502,img0,happy,94.80%,StaffData\3\img0_2025_01_13_1502.png
+2025_01_13_1502,img1,angry,35.74%,StaffData\3\img1_2025_01_13_1502.png
+2025_01_13_1502,img2,happy,76.05%,StaffData\3\img2_2025_01_13_1502.png
+2025_01_13_1502,img3,neutral,74.45%,StaffData\3\img3_2025_01_13_1502.png
+2025_01_13_1502,img4,sad,43.77%,StaffData\3\img4_2025_01_13_1502.png
+2025_01_13_1503,img5,No Face Detected,0.00%,StaffData\3\img5_2025_01_13_1503.png
+2025_01_13_1503,img6,No Face Detected,0.00%,StaffData\3\img6_2025_01_13_1503.png
+2025_01_13_1503,img7,No Face Detected,0.00%,StaffData\3\img7_2025_01_13_1503.png
