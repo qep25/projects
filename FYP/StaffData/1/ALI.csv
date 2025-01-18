@@ -1,4 +1,0 @@
-Timestamp,ID,Emotion,Accuracy,Image Filename
-2025_01_13_1528,img0,No Face Detected,0.00%,StaffData\1\img0_2025_01_13_1528.png
-2025_01_13_1528,img1,happy,94.23%,StaffData\1\img1_2025_01_13_1528.png
-2025_01_13_1528,img2,happy,95.69%,StaffData\1\img2_2025_01_13_1528.png
