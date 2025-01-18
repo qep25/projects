@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>L7E4</title>
+	</head>
+	<body>
+		<script>
+			var shape = [];
+			var i = 1;
+			shape.length = 5;
+			
+			for(var x=0; x<5; x++){
+				shape[x] = prompt("Enter a shape: "+i," ");
+				i++;
+			}
+			
+			shape.reverse()
+			document.write("Reverse Method: "+shape+"<br><br>");
+			
+			shape.sort()
+			document.write("Sort Method: "+shape+"<br><br>");
+			
+			var newShape = [];
+			newShape = shape;
+			document.write("New Array: "+newShape+"<br><br>");
+		</script>
+	</body>
+</html>
+

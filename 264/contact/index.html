@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+	<!-- JQuery Library Link -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	
+	<!-- External CSS File -->
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+  
+<body>
+	<br>
+	<div class="startup">
+		<hr><br>
+		<h1>EXAMPLE OF CONTACT US FORM<br>(POPUP)</h1>
+		<button onclick="togglePopup()" class="button">Show Popup</button>
+		<br><br><br>
+		<hr>
+	</div>
+	
+	<!-- div containing the popup -->
+	<div class="content">
+		
+		<!-- coding for close button of the popup box -->
+		<button onclick="togglePopup()" class="button">Close</button>
+		
+		<h2>CONTACT US</h2>
+		
+		<!-- coding for all the form needed in the popup box -->
+		<input size="52" type="text" name="fullname" placeholder=" Name "><br><br>
+		<input size="52" type="email" name="email" placeholder=" Email "><br><br>
+		<input size="52" type="text" name="subject" placeholder=" Subject "><br><br>
+		<textarea rows="5" cols="40" name="message">Message</textarea><br><br>
+		
+		<!-- coding for submit button of the popup box -->
+		<input class="submit-btn" type="submit" value="Submit">
+	</div>
+	
+	<script type="text/javascript">
+		
+		//Function to show and hide the popup
+		function togglePopup() {
+			$(".content").toggle();
+		}
+	</script>
+</body>
+  
+</html>

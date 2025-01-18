@@ -1,0 +1,63 @@
+	
+/* --- CSS style for the button --- */
+	.button {
+		background-color: transparent;
+		border: 2px solid #66FCF1;
+		color: white;
+		padding: 15px 30px;
+		font-family:Garamond;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin: 8px 2px;
+		cursor: pointer;
+	}
+
+/* --- CSS style when mouse hover the button --- */	
+	.button:hover { 
+		background-color: #66FCF1;
+		color: #1F2833;
+	}
+	
+/* --- CSS style for background and text of the webpage --- */
+	.startup{
+		text-align: center;
+		background-color: #1F2833;
+		color: #66FCF1;
+		font-family:Garamond;
+	}
+
+/* --- CSS style for Popup Box --- */
+    .content {
+		color: #1F2833;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 360px;
+        text-align: center;
+        background-color: #C5C6C7;
+        box-sizing: border-box;
+        padding: 10px;
+        z-index: 100;
+        display: none; /*to hide popup initially*/
+        }
+		
+/* --- CSS style for Button Close --- */    
+    .close-btn {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background-color: #45A29E;
+        color: white;
+        padding: 6px 8px;
+    }
+
+/* --- CSS style for Button Submit --- */    
+    .submit-btn {
+        background-color: #45A29E;
+        color: white;
+        padding: 5px 16px;
+    }

@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>L7E3</title>
+	</head>
+	<body>
+		<script>
+			var num = [];
+			var small = 999;
+			num.length = 5;
+			
+			for(var x=0; x<5; x++){
+				num[x] = Number(prompt("Enter the number:"," "));
+				if(num[x]<small)
+					small=num[x];
+			}
+			
+			document.write("The smallest number is: "+small);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>QE3_4</title>
+	</head>
+	<body>
+		<h1>Customer Registration</h1>
+		<form>
+		<fieldset>
+			<legend style="font-weight:bold;">Account Sing-up</legend>
+			
+			<label for="Username">Username:</label><br>
+			<input type="text" name="Username" size="50"><br><br>
+			<label>
+				Password(maximum 9 characters):<br>
+				<input type="password" name="password" maxlength="9"><br><br>
+			</label>
+		</fieldset>
+		<fieldset>
+			<legend style="font-weight:bold;">Personal Information</legend>
+			
+			<label for="name">Full Name:</label><br>
+			<input type="text" name="fullName" size="50"><br><br>
+			<label>
+				Delivery Address:<br>
+				<textarea rows="5" cols="50" name="address">
+				</textarea><br><br>
+			<label>
+				State:<br>
+				<select name="state"> 
+					<option value="initial"selected>Select your state...</option>
+					<option value="sel">Selangor</option>
+					<option value="joh">Johor</option>
+					<option value="ked">Kedah</option>
+					<option value="kel">Kelantan</option>
+					<option value="mel">Melaka</option>
+					<option value="neg">Negeri Sembilan</option>
+					<option value="pah">Pahang</option>
+					<option value="prk">Perak</option>
+					<option value="pls">Perlis</option>
+					<option value="pp">Pulau Pinang</option>
+					<option value="Ter">Terengganu</option>
+					<option value="sab">Sabah</option>
+					<option value="sar">Sarawak</option>
+				</select><br><br>
+			<label>
+				Phone Number:<br>
+				<input type="text" name="pnum" value="+60" maxlength="13"><br><br>
+			<label>
+				Payment Mode:<br>
+				<input type="radio" name="payment" value="credit">Credit Card
+				<input type="radio" name="payment" value="debit">Debit Card
+			</label>
+		</fieldset>
+		<label>
+		<input type="checkbox" name="newsletter" value="newsletter">Sign me up for a newsletter<br><br>
+		
+		<input type="submit" value="Register">
+		<input type="reset" value="Reset">
+		</form>
+		
+	</body>
+</html>
