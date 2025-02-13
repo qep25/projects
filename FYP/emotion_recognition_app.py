@@ -32,7 +32,7 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 # Update your file loading
-model_path = resource_path("model.json")
+model_path = resource_path("model2.json")
 weights_path = resource_path("model_weights.h5")
 csv_path = resource_path("StaffID.csv")
 
