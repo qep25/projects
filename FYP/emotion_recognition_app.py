@@ -40,8 +40,8 @@ csv_path = resource_path("StaffID.csv")
 model = load_model_from_json(model_path, weights_path)
 
 # Emotion labels
-emotions = ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 
-            'surprise']
+emotions = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 
+            'Surprise']
 
 # Update the predict_emotion function for grayscale input
 def predict_emotion(frame):
@@ -95,7 +95,7 @@ def capture_and_predict():
         # Predict emotion
         predicted_emotion, accuracy = predict_emotion(frame)
         result_label.config(
-        text=f"Emotion: {predicted_emotion}\nAccuracy: {accuracy:.2f}%",
+        text=f"Emotion Predicted: {predicted_emotion}\nAccuracy Model: {accuracy:.2f}%",
         font=("Arial", 16, "bold"), fg="blue")
 
         # Save the result
