@@ -8,7 +8,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=qep25&label=Profile%20views&color=0e75b6&style=flat" alt="qep25" /> </p>
 
-- 🔭 I’m currently working on my Final Year Project: [Customer Emotion Recognition System](FYP)
+- 🔭 I’m currently working on my Final Year Project: [Customer Emotion Recognition System](https://github.com/qep25/Emotion_Recognition_FYP)
 
 - 🌱 I’m currently learning **Web Development** and **Convolutional Neural Networks**
 
